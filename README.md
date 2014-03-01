@@ -1,0 +1,1 @@
+Fuck You project is a python implementation of [(╯°□°）╯︵sǝssǝɔoɹd oʎ llɐ llıʞǝɓɐɹ ](https://github.com/robotlolita/fuck-you)
