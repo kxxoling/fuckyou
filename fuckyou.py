@@ -12,8 +12,10 @@ def flip(char):
 
 
 if __name__ == '__main__':
-    if sys.argv[1]:
+    if len(sys.argv) > 1:
         sys.argv[0] = ''
         origin_string = list(' '.join(sys.argv))
         flipped_string = ''.join(map(flip, origin_string))
         print '(╯°□°）╯︵' + flipped_string
+    else:
+        print '(；￣Д￣) . o O( It’s not very effective... )'
