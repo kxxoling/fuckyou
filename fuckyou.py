@@ -15,7 +15,7 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         sys.argv[0] = ''
         origin_string = list(' '.join(sys.argv))
-        flipped_string = ''.join(map(flip, origin_string))
+        flipped_string = ''.join(map(flip, origin_string)[::-1])
         print '(╯°□°）╯︵' + flipped_string
     else:
         print '(；￣Д￣) . o O( It’s not very effective... )'
