@@ -16,7 +16,7 @@ if __name__ == '__main__':
         origin_string = list(' '.join(sys.argv))
         try:
             flipped_string = ''.join(map(flip, origin_string)[::-1])
-            print '(╯°□°）╯︵' + flipped_string
+            print u'(╯°□°）╯︵' + flipped_string
         except KeyError:
             print 'Only lower letters accepted!'
     else:
